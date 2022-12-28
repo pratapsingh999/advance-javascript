@@ -1,0 +1,168 @@
+<!-- <p>1.javascript return function</p>
+<script>
+    function myFunction(a, b) {
+  return (a * b);
+
+}
+ document.write(myFunction(4,6));
+</script><br>
+<script>
+    function myFunction(a, b) {
+  document.write(a * b);
+
+}
+ myFunction(9,6);
+</script><br> -->
+
+<!-- <p>2.javascript function</p>
+<script>
+    let a = 5;
+    let b = 9;
+    let f = 89;
+    function toCelsius(i) {
+  return (a/b) * (f-32);
+}
+document.write(toCelsius()); //error
+</script><br>
+
+<script>
+     function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+document.write(toCelsius(89));
+</script><br>
+
+<p>3.javascript function use</p>
+<script>
+   function toCelsius(f) {
+    let o = 5;
+    let i = 9;
+  return (o/i) * (f-32);
+} 
+document.write(toCelsius(89)+"<br>");
+document.write(toCelsius(56)+"<br>");
+document.write(toCelsius(06)+"<br>");
+</script><br>
+
+<p>4.The () Operator Invokes the Function</p>
+
+<script>
+     function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+document.write(toCelsius);
+</script><br>
+
+<p>5.Functions Used as Variable Values</p>
+<script>
+  
+  function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+  
+} 
+document.write("The temperature is " + toCelsius(87) + " Celsius");
+</script><br>
+
+<script>
+  var y =toCelsius(67);
+
+function toCelsius(fahrenheit) {
+ return (5/9) * (fahrenheit-32);
+ 
+} 
+document.write("The temperature is " + y + " Celsius");
+</script><br>
+
+<script>
+  function toCelsius(fahrenheit) {
+      return (5/9) * (fahrenheit-32);
+  } 
+let d = toCelsius(77);  
+document.write("The temperature is " + d + " Celsius");
+</script><br> -->
+
+<script>
+  function toCelsiushhhhh(fahrenheit) {
+console.log(fahrenheit,">>>>>>>>>");
+    var a1 = toCelsiushhhhh(77);            //error
+ return (5/9) * (fahrenheit-32);
+  
+}  
+toCelsiushhhhh(67); 
+// document.write("The temperature is " + a1 + " toCelsiushhhhh");        
+document.write(toCelsiushhhhh("The temperature is " + a1+ " Celsius......."));
+
+ </script><br>
+<!-- 
+<p>6.Local Variables </p>
+
+<script>
+  function myFunction() {
+  let carName = "Volvo";
+      document.write(carName);
+}
+myFunction();
+</script><br>
+
+<script>
+   let carName = "Volvo";
+     function myFunction() {
+           document.write(carName);      //not a local variable
+}
+myFunction();
+</script><br>
+
+<script>
+ function myFunction() {
+     document.write(carNames);  //not a local variable
+}
+let carNames = "Volvo";
+myFunction();
+</script><br>
+
+<p>7.outer variable</p>
+<script>
+  let userName = 'pratap';
+function showMessage() {
+  let message = 'Hello, ' + userName;
+  document.write(message);
+}
+
+showMessage();
+</script><br>
+
+<script>
+  let userNames = 'pratap';
+
+function showMessage() {
+  userNames = "singh"; // (1) changed the outer variable
+
+  let message = 'Hello, ' + userNames;
+  document.write(message);
+}
+showMessage();
+</script><br> -->
+
+<!-- <script>
+  let userName1 = 'pratap singh';
+
+function showMessage() {
+  let userName1 = "thakur"; // declare a local variable
+
+  let message = 'Hello, ' + userName1; // thakur
+  document.write(message);
+}
+
+// the function will create and use its own userName
+showMessage();
+</script><br> -->
+
+<!-- <p>8.parameters</p>
+<script>
+  function showMessage(from, text) { // parameters: from, text
+  document.write(from + ': ' + text);
+}
+
+showMessage('baba', 'Hello!'+"<br>"); // Ann: Hello! (*)
+showMessage('rahul', "What's up?");
+</script><br> -->

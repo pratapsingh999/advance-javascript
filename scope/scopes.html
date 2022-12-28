@@ -1,0 +1,67 @@
+
+<p>1.function Scope</p>
+<script>
+function myFunction() {
+    var carName = "Volvo";   // Function Scope
+  }
+</script><br>
+
+<script>
+    function myFunction() {
+        let carName = "Volvo";   // Function Scope
+      }
+    </script><br>
+
+<script>
+    function myFunction() {
+        const carName = "Volvo";   // Function Scope
+      }
+    </script><br>
+
+    
+<p>2.global scopes</p>
+    <script>
+        var carName = "Volvo";
+// code here can use carName
+
+function myFunction() {
+    var carName = "Volvo";
+// code here can also use carName
+}
+    </script>
+
+<script>
+    let carName = "Volvo";
+// code here can use carName
+
+function myFunction() {
+    let carName = "Volvo";
+// code here can also use carName
+}
+</script>
+
+<script>
+    const carName = "Volvo";
+// code here can use carName
+
+function myFunction() {
+   const carName = "Volvo";
+// code here can also use carName
+}
+</script>
+
+
+<p>3.block Scope</p>
+<script>
+    function myFunction() {
+        let carName = "Volvo";   // block Scope
+      }
+    </script><br>
+    //  can NOT be used here
+
+    <script>
+        function myFunction() {
+            const carName = "Volvo";   // block Scope
+          }
+        </script><br>
+        //  can NOT be used here

@@ -1,0 +1,98 @@
+<p>1.Function Expression</p>
+<script>
+  //  sayHi("pratap singh");  in function Expression it not work 
+
+let sayHi = function(name) {  
+//   document.write( `Hello, ${name}` );
+  document.write("Hello"+" "+name);
+}
+sayHi("pratap singh");
+</script><br>
+
+<p>02.function declaration</p>
+<script>
+sayHello("pratap singh"); 
+function sayHello(name) {
+//   document.write( `Hello, ${name}` );
+  document.write("Hello"+" "+name)
+}
+</script><br>
+
+<script>
+// document.write("<ul>");
+   function sayHellos(name) {
+    // document.write( `Hello, ${name}`+"<br>" );
+    document.write("<li>" +"hello" + name +"<br>"+ "</li>");
+    // document.write("<li>" + "hello" + name  + "</li>");
+  }
+  sayHellos(" thakur pratap singh");
+  sayHellos(" pratap singh");
+  sayHellos(" akash singh");
+  sayHellos(" aditya singh");
+  // document.write("</ul>");
+  </script>
+
+  <p>3.javascript Arrow function</p>
+  <script>
+    let myFunction = (a, b) => a * b;
+    document.write(myFunction(3,5));   //Arrow function
+  </script><br>
+
+<script>
+    function addition(a,b){
+    document.write(a+b);    //normal function
+}
+addition(890,79);
+  </script><br>
+
+<p>4.Before Arrow</p>
+
+<script>
+let hello = "";
+hello = function() {
+  return "Hello World!";
+}
+document.write( hello());
+</script><br>
+
+<script>
+     
+     let hellos = function() {
+      return "Hi World!";
+    }
+    document.write( hellos());
+    </script><br>
+
+    <script>
+           function helloss () {
+      return "Hi Worldssssss!";
+    }
+    document.write( helloss());
+    </script>
+
+<p>5.With Arrow Function:</p>
+    <script>
+      let  hell = () => {
+  return "hello pratap ";
+}
+document.write(hell());
+    </script><br>
+
+<p>6.Arrow Functions Return Value by Default</p>
+    <script>
+      let  hellokk = () => "Hello World!";
+        document.write(hellokk());
+    </script><br>
+
+<p>7.Arrow Function With Parameters</p>
+<script>
+  let  helloo = (val,gla,jki,loi) => "Hello"+ " "+ val +" " + gla + " " + jki +" "+loi +" ";
+  document.write(helloo("Universe","pratap","singh","thakur"));
+</script><br>
+
+<p>8.Arrow Function Without Parentheses</p>
+<script>
+    let  helloos = val => "Hello "+val ;  //can not be use more than one parameters
+    document.write(helloos("Universesssss"));
+  </script><br>
+
